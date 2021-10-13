@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --text-color: #fff;
+    --color-muted: #808081;
+    --primary-color: #008ed6;
+    --font-family: 'Source Sans Pro', sans-serif;
+    --footer-background: #15141a;
+}
+/* header section start */
+header {
+    background: url('../Image/Home-bg.png') no-repeat center top;
+    background-size: cover;
+    width: 100%;
+    min-height: 90vh;
+}
+header .menu {
+    margin: 1.5rem 0;
+}
+.navbar-light .navbar-brand {
+    color: var(--text-color);
+    text-transform: uppercase;
+}
+.navbar .collapse .navbar-nav .nav-link {
+    color: var(--text-color);
+    font-size: 1.1rem;
+    padding-left: 2rem;
+}
+.navbar .collapse .navbar-nav .nav-link:hover, .navbar .collapse .navbar-nav .nav-link:focus {
+    background: url('../Image/home-border.png') no-repeat bottom;
+    background-size: 80px;
+}
+.navbar-light .collapse .navbar-nav .active{
+    background: url('../Image/home-border.png') no-repeat bottom;
+    background-size: contain;
+}
+.navbar-light .collapse .navbar-nav .active:hover, .navbar-light .collapse .navbar-nav .active:focus{
+    background: transparent;
+}
+/* menu section end here */
+header .banner .col-lg-5 {
+    color: var(--text-color);
+}
+header .banner .col-lg-5 h4{
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: .1rem;
+    color: var(--primary-color);
+}
+header .banner .col-lg-5 h1{
+    font-size: 3rem;
+    font-weight: 400;
+    margin: 1.5rem 0;
+}
+header .banner .col-lg-5 p{
+    color: var(--color-muted);
+}
+header .banner .col-lg-5 .btn {
+    padding: .8rem;
+    margin-right: 1.5rem;
+    transition: 1s;
+}
+header .banner .col-lg-5 .btn-primary{
+    background: var(--primary-color);
+}
+header .banner .col-lg-5 .btn-primary:hover, header .banner .col-lg-5 .btn-primary:focus {
+    background: transparent;
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+header .banner .col-lg-5 .btn-outline-primary {
+    padding: .8rem 1.2rem;
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
+header .banner .col-lg-5 .btn-outline-primary:hover, header .banner .col-lg-5 .btn-outline-primary:focus {
+    background: var(--primary-color);
+    border-color: var(--primary-color);
+    color: #fff;
+}
+
+/* bannr section start here */
+/* **************************header section end ***************/
+
+/* **************************feature  section start ***************/
+.feature .feature-card .icon{
+    font-size: 1.6rem;
+}
+.feature .feature-card h5{
+    font-size: 1.5rem;
+}
+.feature .feature-card p{
+    color: var(--color-muted);
+}
+/* **************************feature section end ***************/
+
+/* **************************device  section start ***************/
+.device .container .row .details h5 {
+    text-transform: uppercase;
+    color: var(--primary-color);
+}
+.device .phone img{
+    width: 100%;
+}
+.device .container .row .details h1 {
+   line-height: 3rem;
+   font-size: 2.8rem;
+}
+.device .container .row .details .para {
+    color: var(--color-muted);
+}
+.device .container .row .details span{
+    color: var(--primary-color);
+}
+/* **************************device section end ***************/
+
+/* **************************customize  section start ***************/
+.customize {
+    background: #f2f2f2;
+}
+.customize .text h5{
+    text-transform: uppercase;
+    color: var(--primary-color);
+}
+.customize .text  h1 {
+    line-height: 3rem;
+    font-size: 2.8rem;
+}
+.customize .text .para {
+    color: var(--color-muted);
+}
+.customize .phone img{
+    width: 100%;
+}
+/* **************************customize section end ***************/
+
+
+/* *****************Testimonial section start ***************/
+.testimoni {
+    background: url('../Image/Prostokąt\ 4.png') center top no-repeat;
+    background-size: cover;
+}
+.testimoni h5 {
+    color: var(--primary-color);
+}
+.testimoni h1 {
+    line-height: 3rem;
+    font-size: 2.8rem;
+    letter-spacing: .2rem;
+}
+.testimoni .item img{
+    width: 75px;
+    height: 75px;
+}
+.testimoni .item h6 {
+    font-size: 1.2rem;
+}
+/* *****************Testimonial section end ***************/
+
+/* **************************like section start ***************/
+.like {
+    background: var(--footer-background);
+}
+.like h2{
+    color: var(--text-color);
+}
+.like h2 span {
+    color: var(--color-muted);
+}
+.like .btn {
+    padding: .8rem;
+    margin-right: 1.5rem;
+    transition: 1s;
+}
+.like .btn-primary{
+    background: var(--primary-color);
+}
+.like .btn-primary:hover, .like .btn-primary:focus {
+    background: transparent;
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+.like .btn-outline-primary {
+    padding: .8rem 1.2rem;
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
+.like .btn-outline-primary:hover, .like .btn-outline-primary:focus {
+    background: var(--primary-color);
+    border-color: var(--primary-color);
+    color: #fff;
+}
+/* **************************like section end ***************/
+
+/* **************************card pricing  section start ***************/
+.pricing-card h5 {
+    color: var(--primary-color);
+}
+.pricing-card .row .card-header {
+    background: transparent;
+    transition: 2s;
+}
+
+.pricing-card .row .card-header sup {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: var(--color-muted);
+}
+.pricing-card .row .card-header p{
+    color: var(--color-muted);
+}
+.pricing-card .row .card-body p{
+    color: var(--color-muted);
+}
+.pricing-card .row .card-body p span {
+    color: var(--primary-color);
+}
+.pricing-card .row .card-body .btn-outline-primary {
+    padding: .8rem 1.2rem;
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+    transition: 1s;
+}
+/* hover effect on card and button */
+.pricing-card .row .card-body .btn-outline-primary:hover, .pricing-card .row .card-body .btn-outline-primary:focus {
+    background: var(--primary-color);
+    border-color: var(--primary-color);
+    color: #fff;
+}
+.pricing-card .row .cards:hover h5 {
+    color: var(--primary-color);
+}
+.pricing-card .row .cards:hover .price {
+    background: var(--primary-color);
+}
+.pricing-card .row .cards:hover  h1, .pricing-card .row .cards:hover .para, .pricing-card .row .cards:hover .dollar{
+    color: var(--text-color);
+}
+.pricing-card .row .cards:hover .btn {
+    background: var(--primary-color);
+    border-color: var(--primary-color);
+    color: #fff;
+}
+/* **************************card pricing  section end ***************/
+
+/* ************contact-us  section start here **********/
+.contact-us {
+    background-color: #ededed;
+}
+.contact-us .icon {
+    color: var(--primary-color);
+}
+.contact-us .form {
+    background-color: var(--footer-background);
+    margin-bottom: -3.5rem;
+}
+.contact-us .form input, .contact-us .form textarea {
+    border-color: var(--color-muted);
+}
+.contact-us .form button {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+.contact-us .form button:hover,  .contact-us .form button:focus{
+    background-color: transparent;
+    border-color: var(--primary-color);
+}
+/* ************contact-us  section end here **********/
+
+/* ************footer  section start here **********/
+footer {
+    background-color: var(--footer-background);
+}
+footer span {
+    transition: 1s;
+}
+footer span a {
+    text-decoration: none;
+    color: var(--color-muted);
+}
+footer span:hover, footer span:focus {
+    color: var(--primary-color);
+}
+/* ************footer  section end here **********/
