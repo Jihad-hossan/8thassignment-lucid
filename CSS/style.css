@@ -20,6 +20,10 @@ header {
 header .menu {
     margin: 1.5rem 0;
 }
+header .menu .navbar-light .navbar-toggler {
+    color: #fff;
+    border-color: #fff;
+}
 .navbar-light .navbar-brand {
     color: var(--text-color);
     text-transform: uppercase;
@@ -285,3 +289,99 @@ footer span:hover, footer span:focus {
     color: var(--primary-color);
 }
 /* ************footer  section end here **********/
+
+/* *************************************************************** responsive media here***** */
+/* ***** most of the mobile phones media query**** */
+@media (min-width: 320px) and (max-width: 480px) {
+    /* code start */
+    .navbar-light .collapse .navbar-nav .active {
+        background: url(../Image/home-border.png) no-repeat left bottom;
+        background-size: auto;
+    }
+    .navbar .collapse .navbar-nav .nav-link:hover {
+        background: url(../Image/home-border.png) no-repeat left bottom;
+    }
+    .navbar .collapse .navbar-nav .nav-link {
+        color: var(--text-color);
+        font-size: 1rem;
+        padding-left: 0;
+    }
+    header .banner .col-lg-5 h1 {
+        font-size: 2rem;
+    }
+    header .banner .col-lg-5 .btn {
+        padding: 5px 10px;
+        margin: 1.5rem 0;
+        font-size: .8rem;
+        margin-right: .5rem;
+    }
+
+    /* feature section */
+    .feature .card-section{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .feature .feature-heading h1{
+        font-size: 2rem;
+    }
+    .feature .feature-card {
+        padding: 10px 0;
+    }
+    /* device section */
+    .device .details h5{
+        font-size: 1rem;
+    }
+    .device .details .h1{
+        font-size: 2rem !important;
+    }
+    /* customize section */
+    .customize {
+        padding-top: 0;
+    }
+    .customize .text{
+        padding-top: 0px !important;
+        margin-top: 0px !important;
+    }
+    .customize .text h5{
+        font-size: 1rem;
+    }
+    .customize .text h1{
+        font-size: 2rem !important;
+        line-height: 2.5rem;
+    }
+    /* testimoni */
+    .testimoni .text-center h5{
+        font-size: 1rem;
+    }
+    .testimoni .text-center h1{
+        font-size: 2rem !important;
+        line-height: 2.5rem;
+    }
+    .testimoni .owl-carousel h4 {
+        font-size: 1rem;
+    }
+    .testimoni .owl-carousel h6 {
+        font-size: 1rem;
+    }
+    .testimoni .owl-carousel p{
+        font-size: .8rem;
+    }
+    .testimoni .owl-carousel .item{
+        margin-bottom: 0;
+    }
+    /* code end */
+}
+/* ***** most of the mobile phones and low resulation tablet media query**** */
+@media (min-width: 481px) and (max-width: 767px) {
+    /* code start */
+    
+
+    /* code end */
+}
+/* ***** most of the  tablet media query**** */
+@media (min-width: 768px) and (max-width: 1000px) {
+    /* code start */
+    
+
+    /* code end */
+}
