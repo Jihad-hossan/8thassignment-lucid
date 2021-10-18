@@ -328,6 +328,12 @@ footer span:hover, footer span:focus {
         padding: 10px 0;
     }
     /* device section */
+    .device .phone{
+        text-align: center;
+    }
+    .device .phone img{
+        width: 65%;
+    }
     .device .details h5{
         font-size: 1rem;
     }
@@ -358,30 +364,286 @@ footer span:hover, footer span:focus {
         line-height: 2.5rem;
     }
     .testimoni .owl-carousel h4 {
-        font-size: 1rem;
+        font-size: .8rem;
     }
     .testimoni .owl-carousel h6 {
         font-size: 1rem;
     }
     .testimoni .owl-carousel p{
-        font-size: .8rem;
+        font-size: .6rem;
     }
-    .testimoni .owl-carousel .item{
-        margin-bottom: 0;
+    .testimoni .owl-carousel .owl-stage .item{
+        margin-bottom: 0 !important;
+        margin-right: 0;
+        text-align: center;
+    }
+    /* like section */
+    .like h2{
+        font-size: 1.5rem;
+    }
+    .like .btn {
+        padding: 5px 10px;
+        margin: 1.5rem 0;
+        font-size: .8rem;
+        margin-right: .5rem;
+    }
+    .like .togomiddle{
+        text-align: center;
+    }
+    /* pricing card section start */
+    .pricing-card .pricing-heading h5{
+        font-size: 1rem;
+    }
+    .pricing-card .pricing-heading h1{
+        font-size: 2rem;
+    }
+    .pricing-card .cards {
+        margin-top: 15px !important;
+        width: 100% !important;
+        margin: 10px auto!important;
+    }
+    .pricing-card .cards .card-header{
+        padding: 5px 15px !important;
+    }
+    .pricing-card .cards .card-body{
+        padding: 5px 15px !important;
+    }
+    .pricing-card .cards .card-body p{
+        padding: 8px 10px !important;
+        margin-bottom: 0 !important;
+    }
+    .pricing-card .cards .card-header h5{
+        font-size: 1rem;
+    }
+    .pricing-card .cards .card-body .btn {
+        padding: 5px 10px;
+        margin: 1.5rem 0;
+        font-size: .8rem;
+        margin-right: .5rem;
+    }
+    /* contact-us section */
+    .contact-us .contact-us-heading  h5{
+        font-size: 1rem !important;
+    }
+    .contact-us .contact-us-heading h1{
+        font-size: 2rem !important;
+    }
+    .contact-us .for-form-middle{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .contact-us .for-decr-padding{
+        padding: 10px !important;
+    }
+    .contact-us .for-decr-padding .btn {
+        padding: 5px 10px;
+        margin: 1.5rem 0;
+        font-size: .8rem;
+        margin-right: .5rem;
+    }
+    .contact-us .for-decr-padding .text-right{
+        text-align: center !important;
+    }
+    /* footer section  */
+    .footer{
+        padding: 20px !important;
+    }
+    footer .icon span {
+       font-size: 10px;
+    }
+    .footer p{
+        font-size: .8rem;
     }
     /* code end */
 }
 /* ***** most of the mobile phones and low resulation tablet media query**** */
 @media (min-width: 481px) and (max-width: 767px) {
     /* code start */
-    
+    .navbar-light .collapse .navbar-nav .active {
+        background: url(../Image/home-border.png) no-repeat left bottom;
+        background-size: auto;
+    }
+    .navbar .collapse .navbar-nav .nav-link:hover {
+        background: url(../Image/home-border.png) no-repeat left bottom;
+    }
+    .navbar .collapse .navbar-nav .nav-link {
+        color: var(--text-color);
+        font-size: 1rem;
+        padding-left: 0;
+    }
+    header .banner .col-lg-5 h1 {
+        font-size: 2rem;
+    }
+    header .banner .col-lg-5 .btn {
+        padding: 5px 10px;
+        margin: 1.5rem 0;
+        font-size: .8rem;
+        margin-right: .5rem;
+    }
 
+    /* feature section */
+    .feature .card-section{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .feature .feature-heading h1{
+        font-size: 2rem;
+    }
+    .feature .feature-card {
+        padding: 10px 0;
+    }
+    /* device section */
+    .device .phone{
+        text-align: center;
+    }
+    .device .phone img{
+        width: 60%;
+    }
+    .device .details h5{
+        font-size: 1rem;
+    }
+    .device .details .h1{
+        font-size: 2rem !important;
+    }
+    /* customize section */
+    .customize {
+        padding-top: 0;
+    }
+    .customize .text{
+        padding-top: 0px !important;
+        margin-top: 0px !important;
+    }
+    .customize .text h5{
+        font-size: 1rem;
+    }
+    .customize .text h1{
+        font-size: 2rem !important;
+        line-height: 2.5rem;
+    }
+    /* testimoni */
+    .testimoni .text-center h5{
+        font-size: 1rem;
+    }
+    .testimoni .text-center h1{
+        font-size: 2rem !important;
+        line-height: 2.5rem;
+    }
+    .testimoni .owl-carousel h4 {
+        font-size: .8rem;
+    }
+    .testimoni .owl-carousel h6 {
+        font-size: 1rem;
+    }
+    .testimoni .owl-carousel p{
+        font-size: .6rem;
+    }
+    .testimoni .owl-carousel .owl-stage .item{
+        margin-bottom: 0 !important;
+        margin-right: 0;
+        text-align: center;
+    }
+    /* like section */
+    .like h2{
+        font-size: 1.5rem;
+    }
+    .like .btn {
+        padding: 5px 10px;
+        margin: 1.5rem 0;
+        font-size: .8rem;
+        margin-right: .5rem;
+    }
+    .like .togomiddle{
+        text-align: center;
+    }
+    /* pricing card section start */
+    .pricing-card .pricing-heading h5{
+        font-size: 1rem;
+    }
+    .pricing-card .pricing-heading h1{
+        font-size: 2rem;
+    }
+    .pricing-card .cards {
+        margin-top: 15px !important;
+        width: 100% !important;
+        margin: 10px auto!important;
+    }
+    .pricing-card .cards .card-header{
+        padding: 5px 15px !important;
+    }
+    .pricing-card .cards .card-body{
+        padding: 5px 15px !important;
+    }
+    .pricing-card .cards .card-body p{
+        padding: 8px 10px !important;
+        margin-bottom: 0 !important;
+    }
+    .pricing-card .cards .card-header h5{
+        font-size: 1rem;
+    }
+    .pricing-card .cards .card-body .btn {
+        padding: 5px 10px;
+        margin: 1.5rem 0;
+        font-size: .8rem;
+        margin-right: .5rem;
+    }
+    /* contact-us section */
+    .contact-us .contact-us-heading  h5{
+        font-size: 1rem !important;
+    }
+    .contact-us .contact-us-heading h1{
+        font-size: 2rem !important;
+    }
+    .contact-us .for-form-middle{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .contact-us .for-decr-padding{
+        padding: 10px !important;
+    }
+    .contact-us .for-decr-padding .btn {
+        padding: 5px 10px;
+        margin: 1.5rem 0;
+        font-size: .8rem;
+        margin-right: .5rem;
+    }
+    .contact-us .for-decr-padding .text-right{
+        text-align: center !important;
+    }
+    /* footer section  */
+    .footer{
+        padding: 20px !important;
+    }
+    footer .icon span {
+       font-size: 10px;
+    }
+    .footer p{
+        font-size: .8rem;
+    }
     /* code end */
 }
 /* ***** most of the  tablet media query**** */
 @media (min-width: 768px) and (max-width: 1000px) {
     /* code start */
-    
-
+    /* device */
+    .device .phone{
+        text-align: center;
+    }
+    .device .phone img{
+        width: 50%;
+    }
+    /* form */
+    .contact-us .for-form-middle{
+        width: 100% !important;
+        margin: 0 auto !important;
+        padding-left: 0 !important;
+    }
+    .contact-us .for-form-middle .form{
+        width: 100% !important;
+        margin: 30px auto !important;
+        padding-left: 0 !important;
+    }
+    .contact-us .for-decr-padding{
+        padding: 10px !important;
+    }
     /* code end */
 }
